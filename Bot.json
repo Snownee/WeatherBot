@@ -1,0 +1,2860 @@
+{
+  "luis_schema_version": "2.1.0",
+  "versionId": "0.1",
+  "name": "Bot",
+  "desc": "",
+  "culture": "zh-cn",
+  "intents": [
+    {
+      "name": "None"
+    },
+    {
+      "name": "Weather.Query"
+    }
+  ],
+  "entities": [
+    {
+      "name": "天气"
+    }
+  ],
+  "composites": [],
+  "closedLists": [
+    {
+      "name": "location",
+      "subLists": [
+        {
+          "canonicalForm": "北京",
+          "list": [
+            "首都",
+            "帝都"
+          ]
+        },
+        {
+          "canonicalForm": "天津",
+          "list": []
+        },
+        {
+          "canonicalForm": "沈阳",
+          "list": []
+        },
+        {
+          "canonicalForm": "长春",
+          "list": []
+        },
+        {
+          "canonicalForm": "哈尔滨",
+          "list": []
+        },
+        {
+          "canonicalForm": "上海",
+          "list": [
+            "魔都"
+          ]
+        },
+        {
+          "canonicalForm": "南京",
+          "list": []
+        },
+        {
+          "canonicalForm": "武汉",
+          "list": [
+            "武昌",
+            "汉口"
+          ]
+        },
+        {
+          "canonicalForm": "广州",
+          "list": [
+            "羊城",
+            "花都",
+            "妖都"
+          ]
+        },
+        {
+          "canonicalForm": "重庆",
+          "list": [
+            "陪都"
+          ]
+        },
+        {
+          "canonicalForm": "成都",
+          "list": []
+        },
+        {
+          "canonicalForm": "西安",
+          "list": []
+        },
+        {
+          "canonicalForm": "石家庄",
+          "list": []
+        },
+        {
+          "canonicalForm": "唐山",
+          "list": []
+        },
+        {
+          "canonicalForm": "太原",
+          "list": []
+        },
+        {
+          "canonicalForm": "包头",
+          "list": []
+        },
+        {
+          "canonicalForm": "大连",
+          "list": []
+        },
+        {
+          "canonicalForm": "鞍山",
+          "list": []
+        },
+        {
+          "canonicalForm": "抚顺",
+          "list": []
+        },
+        {
+          "canonicalForm": "吉林",
+          "list": []
+        },
+        {
+          "canonicalForm": "齐齐哈尔",
+          "list": []
+        },
+        {
+          "canonicalForm": "徐州",
+          "list": []
+        },
+        {
+          "canonicalForm": "杭州",
+          "list": []
+        },
+        {
+          "canonicalForm": "福州",
+          "list": []
+        },
+        {
+          "canonicalForm": "南昌",
+          "list": []
+        },
+        {
+          "canonicalForm": "济南",
+          "list": []
+        },
+        {
+          "canonicalForm": "青岛",
+          "list": []
+        },
+        {
+          "canonicalForm": "淄博",
+          "list": []
+        },
+        {
+          "canonicalForm": "郑州",
+          "list": []
+        },
+        {
+          "canonicalForm": "长沙",
+          "list": []
+        },
+        {
+          "canonicalForm": "贵阳",
+          "list": []
+        },
+        {
+          "canonicalForm": "昆明",
+          "list": []
+        },
+        {
+          "canonicalForm": "兰州",
+          "list": []
+        },
+        {
+          "canonicalForm": "乌鲁木齐",
+          "list": []
+        },
+        {
+          "canonicalForm": "邯郸",
+          "list": []
+        },
+        {
+          "canonicalForm": "保定",
+          "list": []
+        },
+        {
+          "canonicalForm": "张家口",
+          "list": []
+        },
+        {
+          "canonicalForm": "大同",
+          "list": []
+        },
+        {
+          "canonicalForm": "呼和浩特",
+          "list": []
+        },
+        {
+          "canonicalForm": "本溪",
+          "list": []
+        },
+        {
+          "canonicalForm": "丹东",
+          "list": []
+        },
+        {
+          "canonicalForm": "锦州",
+          "list": []
+        },
+        {
+          "canonicalForm": "阜新",
+          "list": []
+        },
+        {
+          "canonicalForm": "辽阳",
+          "list": []
+        },
+        {
+          "canonicalForm": "鸡西",
+          "list": []
+        },
+        {
+          "canonicalForm": "鹤岗",
+          "list": []
+        },
+        {
+          "canonicalForm": "大庆",
+          "list": []
+        },
+        {
+          "canonicalForm": "伊春",
+          "list": []
+        },
+        {
+          "canonicalForm": "佳木斯",
+          "list": []
+        },
+        {
+          "canonicalForm": "牡丹江",
+          "list": []
+        },
+        {
+          "canonicalForm": "无锡",
+          "list": []
+        },
+        {
+          "canonicalForm": "常州",
+          "list": []
+        },
+        {
+          "canonicalForm": "苏州",
+          "list": []
+        },
+        {
+          "canonicalForm": "宁波",
+          "list": []
+        },
+        {
+          "canonicalForm": "合肥",
+          "list": []
+        },
+        {
+          "canonicalForm": "淮南",
+          "list": []
+        },
+        {
+          "canonicalForm": "淮北",
+          "list": []
+        },
+        {
+          "canonicalForm": "厦门",
+          "list": []
+        },
+        {
+          "canonicalForm": "枣庄",
+          "list": []
+        },
+        {
+          "canonicalForm": "烟台",
+          "list": []
+        },
+        {
+          "canonicalForm": "潍坊",
+          "list": []
+        },
+        {
+          "canonicalForm": "泰安",
+          "list": []
+        },
+        {
+          "canonicalForm": "临沂",
+          "list": []
+        },
+        {
+          "canonicalForm": "开封",
+          "list": []
+        },
+        {
+          "canonicalForm": "洛阳",
+          "list": []
+        },
+        {
+          "canonicalForm": "平顶山",
+          "list": []
+        },
+        {
+          "canonicalForm": "安阳",
+          "list": []
+        },
+        {
+          "canonicalForm": "新乡",
+          "list": []
+        },
+        {
+          "canonicalForm": "焦作",
+          "list": []
+        },
+        {
+          "canonicalForm": "黄石",
+          "list": []
+        },
+        {
+          "canonicalForm": "襄樊",
+          "list": []
+        },
+        {
+          "canonicalForm": "荆州",
+          "list": []
+        },
+        {
+          "canonicalForm": "株洲",
+          "list": []
+        },
+        {
+          "canonicalForm": "湘潭",
+          "list": []
+        },
+        {
+          "canonicalForm": "衡阳",
+          "list": []
+        },
+        {
+          "canonicalForm": "深圳",
+          "list": []
+        },
+        {
+          "canonicalForm": "汕头",
+          "list": []
+        },
+        {
+          "canonicalForm": "湛江",
+          "list": []
+        },
+        {
+          "canonicalForm": "南宁",
+          "list": []
+        },
+        {
+          "canonicalForm": "柳州",
+          "list": []
+        },
+        {
+          "canonicalForm": "西宁",
+          "list": []
+        },
+        {
+          "canonicalForm": "秦皇岛",
+          "list": []
+        },
+        {
+          "canonicalForm": "邢台",
+          "list": []
+        },
+        {
+          "canonicalForm": "承德",
+          "list": []
+        },
+        {
+          "canonicalForm": "沧州",
+          "list": []
+        },
+        {
+          "canonicalForm": "廊坊",
+          "list": []
+        },
+        {
+          "canonicalForm": "衡水",
+          "list": []
+        },
+        {
+          "canonicalForm": "阳泉",
+          "list": []
+        },
+        {
+          "canonicalForm": "长治",
+          "list": []
+        },
+        {
+          "canonicalForm": "乌海",
+          "list": []
+        },
+        {
+          "canonicalForm": "赤峰",
+          "list": []
+        },
+        {
+          "canonicalForm": "营口",
+          "list": []
+        },
+        {
+          "canonicalForm": "盘锦",
+          "list": []
+        },
+        {
+          "canonicalForm": "铁岭",
+          "list": []
+        },
+        {
+          "canonicalForm": "朝阳",
+          "list": []
+        },
+        {
+          "canonicalForm": "葫芦岛",
+          "list": []
+        },
+        {
+          "canonicalForm": "四平",
+          "list": []
+        },
+        {
+          "canonicalForm": "辽源",
+          "list": []
+        },
+        {
+          "canonicalForm": "通化",
+          "list": []
+        },
+        {
+          "canonicalForm": "白山",
+          "list": []
+        },
+        {
+          "canonicalForm": "松原",
+          "list": []
+        },
+        {
+          "canonicalForm": "白城",
+          "list": []
+        },
+        {
+          "canonicalForm": "双鸭山",
+          "list": []
+        },
+        {
+          "canonicalForm": "七台河",
+          "list": []
+        },
+        {
+          "canonicalForm": "南通",
+          "list": []
+        },
+        {
+          "canonicalForm": "连云港",
+          "list": []
+        },
+        {
+          "canonicalForm": "淮阴",
+          "list": []
+        },
+        {
+          "canonicalForm": "盐城",
+          "list": []
+        },
+        {
+          "canonicalForm": "扬州",
+          "list": []
+        },
+        {
+          "canonicalForm": "镇江",
+          "list": []
+        },
+        {
+          "canonicalForm": "泰州",
+          "list": []
+        },
+        {
+          "canonicalForm": "温州",
+          "list": []
+        },
+        {
+          "canonicalForm": "嘉兴",
+          "list": []
+        },
+        {
+          "canonicalForm": "湖州",
+          "list": []
+        },
+        {
+          "canonicalForm": "绍兴",
+          "list": []
+        },
+        {
+          "canonicalForm": "台州",
+          "list": []
+        },
+        {
+          "canonicalForm": "芜湖",
+          "list": []
+        },
+        {
+          "canonicalForm": "蚌埠",
+          "list": []
+        },
+        {
+          "canonicalForm": "马鞍山",
+          "list": []
+        },
+        {
+          "canonicalForm": "铜陵",
+          "list": []
+        },
+        {
+          "canonicalForm": "安庆",
+          "list": []
+        },
+        {
+          "canonicalForm": "阜阳",
+          "list": []
+        },
+        {
+          "canonicalForm": "泉州",
+          "list": []
+        },
+        {
+          "canonicalForm": "漳州",
+          "list": []
+        },
+        {
+          "canonicalForm": "南平",
+          "list": []
+        },
+        {
+          "canonicalForm": "龙岩",
+          "list": []
+        },
+        {
+          "canonicalForm": "景德镇",
+          "list": []
+        },
+        {
+          "canonicalForm": "萍乡",
+          "list": []
+        },
+        {
+          "canonicalForm": "九江",
+          "list": []
+        },
+        {
+          "canonicalForm": "新余",
+          "list": []
+        },
+        {
+          "canonicalForm": "东营",
+          "list": []
+        },
+        {
+          "canonicalForm": "济宁",
+          "list": []
+        },
+        {
+          "canonicalForm": "威海",
+          "list": []
+        },
+        {
+          "canonicalForm": "日照",
+          "list": []
+        },
+        {
+          "canonicalForm": "莱芜",
+          "list": []
+        },
+        {
+          "canonicalForm": "德州",
+          "list": []
+        },
+        {
+          "canonicalForm": "鹤壁",
+          "list": []
+        },
+        {
+          "canonicalForm": "濮阳",
+          "list": []
+        },
+        {
+          "canonicalForm": "许昌",
+          "list": []
+        },
+        {
+          "canonicalForm": "漯河",
+          "list": []
+        },
+        {
+          "canonicalForm": "南阳",
+          "list": []
+        },
+        {
+          "canonicalForm": "商丘",
+          "list": []
+        },
+        {
+          "canonicalForm": "十堰",
+          "list": []
+        },
+        {
+          "canonicalForm": "宜昌",
+          "list": []
+        },
+        {
+          "canonicalForm": "鄂州",
+          "list": []
+        },
+        {
+          "canonicalForm": "荆门",
+          "list": []
+        },
+        {
+          "canonicalForm": "孝感",
+          "list": []
+        },
+        {
+          "canonicalForm": "黄冈",
+          "list": []
+        },
+        {
+          "canonicalForm": "邵阳",
+          "list": []
+        },
+        {
+          "canonicalForm": "岳阳",
+          "list": []
+        },
+        {
+          "canonicalForm": "常德",
+          "list": []
+        },
+        {
+          "canonicalForm": "益阳",
+          "list": []
+        },
+        {
+          "canonicalForm": "郴州",
+          "list": []
+        },
+        {
+          "canonicalForm": "永州",
+          "list": []
+        },
+        {
+          "canonicalForm": "怀化",
+          "list": []
+        },
+        {
+          "canonicalForm": "韶关",
+          "list": []
+        },
+        {
+          "canonicalForm": "珠海",
+          "list": []
+        },
+        {
+          "canonicalForm": "佛山",
+          "list": []
+        },
+        {
+          "canonicalForm": "江门",
+          "list": []
+        },
+        {
+          "canonicalForm": "茂名",
+          "list": []
+        },
+        {
+          "canonicalForm": "肇庆",
+          "list": []
+        },
+        {
+          "canonicalForm": "惠州",
+          "list": []
+        },
+        {
+          "canonicalForm": "梅州",
+          "list": []
+        },
+        {
+          "canonicalForm": "阳江",
+          "list": []
+        },
+        {
+          "canonicalForm": "东莞",
+          "list": []
+        },
+        {
+          "canonicalForm": "中山",
+          "list": []
+        },
+        {
+          "canonicalForm": "潮州",
+          "list": []
+        },
+        {
+          "canonicalForm": "桂林",
+          "list": []
+        },
+        {
+          "canonicalForm": "梧州",
+          "list": []
+        },
+        {
+          "canonicalForm": "贵港",
+          "list": []
+        },
+        {
+          "canonicalForm": "海口",
+          "list": []
+        },
+        {
+          "canonicalForm": "自贡",
+          "list": []
+        },
+        {
+          "canonicalForm": "攀枝花",
+          "list": []
+        },
+        {
+          "canonicalForm": "泸州",
+          "list": []
+        },
+        {
+          "canonicalForm": "德阳",
+          "list": []
+        },
+        {
+          "canonicalForm": "绵阳",
+          "list": []
+        },
+        {
+          "canonicalForm": "广元",
+          "list": []
+        },
+        {
+          "canonicalForm": "遂宁",
+          "list": []
+        },
+        {
+          "canonicalForm": "内江",
+          "list": []
+        },
+        {
+          "canonicalForm": "乐山",
+          "list": []
+        },
+        {
+          "canonicalForm": "南充",
+          "list": []
+        },
+        {
+          "canonicalForm": "宜宾",
+          "list": []
+        },
+        {
+          "canonicalForm": "六盘水",
+          "list": []
+        },
+        {
+          "canonicalForm": "遵义",
+          "list": []
+        },
+        {
+          "canonicalForm": "曲靖",
+          "list": []
+        },
+        {
+          "canonicalForm": "铜川",
+          "list": []
+        },
+        {
+          "canonicalForm": "宝鸡",
+          "list": []
+        },
+        {
+          "canonicalForm": "咸阳",
+          "list": []
+        },
+        {
+          "canonicalForm": "汉中",
+          "list": []
+        },
+        {
+          "canonicalForm": "白银",
+          "list": []
+        },
+        {
+          "canonicalForm": "天水",
+          "list": []
+        },
+        {
+          "canonicalForm": "银川",
+          "list": []
+        },
+        {
+          "canonicalForm": "石嘴山",
+          "list": []
+        },
+        {
+          "canonicalForm": "克拉玛依",
+          "list": []
+        },
+        {
+          "canonicalForm": "晋城",
+          "list": []
+        },
+        {
+          "canonicalForm": "朔州",
+          "list": []
+        },
+        {
+          "canonicalForm": "通辽",
+          "list": []
+        },
+        {
+          "canonicalForm": "黑河",
+          "list": []
+        },
+        {
+          "canonicalForm": "宿迁",
+          "list": []
+        },
+        {
+          "canonicalForm": "金华",
+          "list": []
+        },
+        {
+          "canonicalForm": "衢州",
+          "list": []
+        },
+        {
+          "canonicalForm": "舟山",
+          "list": []
+        },
+        {
+          "canonicalForm": "黄山",
+          "list": []
+        },
+        {
+          "canonicalForm": "滁州",
+          "list": []
+        },
+        {
+          "canonicalForm": "宿州",
+          "list": []
+        },
+        {
+          "canonicalForm": "巢湖",
+          "list": []
+        },
+        {
+          "canonicalForm": "六安",
+          "list": []
+        },
+        {
+          "canonicalForm": "莆田",
+          "list": []
+        },
+        {
+          "canonicalForm": "三明",
+          "list": []
+        },
+        {
+          "canonicalForm": "鹰潭",
+          "list": []
+        },
+        {
+          "canonicalForm": "赣州",
+          "list": []
+        },
+        {
+          "canonicalForm": "聊城",
+          "list": []
+        },
+        {
+          "canonicalForm": "三门峡",
+          "list": []
+        },
+        {
+          "canonicalForm": "信阳",
+          "list": []
+        },
+        {
+          "canonicalForm": "咸宁",
+          "list": []
+        },
+        {
+          "canonicalForm": "张家界",
+          "list": []
+        },
+        {
+          "canonicalForm": "娄底",
+          "list": []
+        },
+        {
+          "canonicalForm": "汕尾",
+          "list": []
+        },
+        {
+          "canonicalForm": "河源",
+          "list": []
+        },
+        {
+          "canonicalForm": "清远",
+          "list": []
+        },
+        {
+          "canonicalForm": "揭阳",
+          "list": []
+        },
+        {
+          "canonicalForm": "云浮",
+          "list": []
+        },
+        {
+          "canonicalForm": "北海",
+          "list": []
+        },
+        {
+          "canonicalForm": "防城港",
+          "list": []
+        },
+        {
+          "canonicalForm": "钦州",
+          "list": []
+        },
+        {
+          "canonicalForm": "玉林",
+          "list": []
+        },
+        {
+          "canonicalForm": "三亚",
+          "list": []
+        },
+        {
+          "canonicalForm": "达州",
+          "list": []
+        },
+        {
+          "canonicalForm": "玉溪",
+          "list": []
+        },
+        {
+          "canonicalForm": "渭南",
+          "list": []
+        },
+        {
+          "canonicalForm": "延安",
+          "list": []
+        },
+        {
+          "canonicalForm": "榆林",
+          "list": []
+        },
+        {
+          "canonicalForm": "嘉峪关",
+          "list": []
+        },
+        {
+          "canonicalForm": "金昌",
+          "list": []
+        },
+        {
+          "canonicalForm": "吴忠",
+          "list": []
+        },
+        {
+          "canonicalForm": "辛集",
+          "list": []
+        },
+        {
+          "canonicalForm": "藁城",
+          "list": []
+        },
+        {
+          "canonicalForm": "晋州",
+          "list": []
+        },
+        {
+          "canonicalForm": "新乐",
+          "list": []
+        },
+        {
+          "canonicalForm": "鹿泉",
+          "list": []
+        },
+        {
+          "canonicalForm": "遵化",
+          "list": []
+        },
+        {
+          "canonicalForm": "丰南",
+          "list": []
+        },
+        {
+          "canonicalForm": "迁安",
+          "list": []
+        },
+        {
+          "canonicalForm": "武安",
+          "list": []
+        },
+        {
+          "canonicalForm": "南宫",
+          "list": []
+        },
+        {
+          "canonicalForm": "沙河",
+          "list": []
+        },
+        {
+          "canonicalForm": "涿州",
+          "list": []
+        },
+        {
+          "canonicalForm": "定州",
+          "list": []
+        },
+        {
+          "canonicalForm": "安国",
+          "list": []
+        },
+        {
+          "canonicalForm": "高碑店",
+          "list": []
+        },
+        {
+          "canonicalForm": "泊头",
+          "list": []
+        },
+        {
+          "canonicalForm": "任丘",
+          "list": []
+        },
+        {
+          "canonicalForm": "黄骅",
+          "list": []
+        },
+        {
+          "canonicalForm": "河间",
+          "list": []
+        },
+        {
+          "canonicalForm": "霸州",
+          "list": []
+        },
+        {
+          "canonicalForm": "三河",
+          "list": []
+        },
+        {
+          "canonicalForm": "冀州",
+          "list": []
+        },
+        {
+          "canonicalForm": "深州",
+          "list": []
+        },
+        {
+          "canonicalForm": "古交",
+          "list": []
+        },
+        {
+          "canonicalForm": "潞城",
+          "list": []
+        },
+        {
+          "canonicalForm": "高平",
+          "list": []
+        },
+        {
+          "canonicalForm": "忻州",
+          "list": []
+        },
+        {
+          "canonicalForm": "原平",
+          "list": []
+        },
+        {
+          "canonicalForm": "孝义",
+          "list": []
+        },
+        {
+          "canonicalForm": "离石",
+          "list": []
+        },
+        {
+          "canonicalForm": "汾阳",
+          "list": []
+        },
+        {
+          "canonicalForm": "榆次",
+          "list": []
+        },
+        {
+          "canonicalForm": "介休",
+          "list": []
+        },
+        {
+          "canonicalForm": "临汾",
+          "list": []
+        },
+        {
+          "canonicalForm": "侯马",
+          "list": []
+        },
+        {
+          "canonicalForm": "霍州",
+          "list": []
+        },
+        {
+          "canonicalForm": "运城",
+          "list": []
+        },
+        {
+          "canonicalForm": "永济",
+          "list": []
+        },
+        {
+          "canonicalForm": "河津",
+          "list": []
+        },
+        {
+          "canonicalForm": "霍林郭勒",
+          "list": []
+        },
+        {
+          "canonicalForm": "海拉尔",
+          "list": []
+        },
+        {
+          "canonicalForm": "满洲里",
+          "list": []
+        },
+        {
+          "canonicalForm": "扎兰屯",
+          "list": []
+        },
+        {
+          "canonicalForm": "牙克石",
+          "list": []
+        },
+        {
+          "canonicalForm": "根河",
+          "list": []
+        },
+        {
+          "canonicalForm": "额尔古纳",
+          "list": []
+        },
+        {
+          "canonicalForm": "乌兰浩特",
+          "list": []
+        },
+        {
+          "canonicalForm": "二连浩特",
+          "list": []
+        },
+        {
+          "canonicalForm": "锡林浩特",
+          "list": []
+        },
+        {
+          "canonicalForm": "集宁",
+          "list": []
+        },
+        {
+          "canonicalForm": "丰镇",
+          "list": []
+        },
+        {
+          "canonicalForm": "东胜",
+          "list": []
+        },
+        {
+          "canonicalForm": "临河",
+          "list": []
+        },
+        {
+          "canonicalForm": "新民",
+          "list": []
+        },
+        {
+          "canonicalForm": "瓦房店",
+          "list": []
+        },
+        {
+          "canonicalForm": "普兰店",
+          "list": []
+        },
+        {
+          "canonicalForm": "庄河",
+          "list": []
+        },
+        {
+          "canonicalForm": "海城",
+          "list": []
+        },
+        {
+          "canonicalForm": "东港",
+          "list": []
+        },
+        {
+          "canonicalForm": "凤城",
+          "list": []
+        },
+        {
+          "canonicalForm": "凌海",
+          "list": []
+        },
+        {
+          "canonicalForm": "北宁",
+          "list": []
+        },
+        {
+          "canonicalForm": "盖州",
+          "list": []
+        },
+        {
+          "canonicalForm": "大石桥",
+          "list": []
+        },
+        {
+          "canonicalForm": "灯塔",
+          "list": []
+        },
+        {
+          "canonicalForm": "铁法",
+          "list": []
+        },
+        {
+          "canonicalForm": "开原",
+          "list": []
+        },
+        {
+          "canonicalForm": "北票",
+          "list": []
+        },
+        {
+          "canonicalForm": "凌源",
+          "list": []
+        },
+        {
+          "canonicalForm": "兴城",
+          "list": []
+        },
+        {
+          "canonicalForm": "九台",
+          "list": []
+        },
+        {
+          "canonicalForm": "榆树",
+          "list": []
+        },
+        {
+          "canonicalForm": "德惠",
+          "list": []
+        },
+        {
+          "canonicalForm": "蛟河",
+          "list": []
+        },
+        {
+          "canonicalForm": "桦甸",
+          "list": []
+        },
+        {
+          "canonicalForm": "舒兰",
+          "list": []
+        },
+        {
+          "canonicalForm": "磐石",
+          "list": []
+        },
+        {
+          "canonicalForm": "公主岭",
+          "list": []
+        },
+        {
+          "canonicalForm": "双辽",
+          "list": []
+        },
+        {
+          "canonicalForm": "梅河口",
+          "list": []
+        },
+        {
+          "canonicalForm": "集安",
+          "list": []
+        },
+        {
+          "canonicalForm": "临江",
+          "list": []
+        },
+        {
+          "canonicalForm": "洮南",
+          "list": []
+        },
+        {
+          "canonicalForm": "大安",
+          "list": []
+        },
+        {
+          "canonicalForm": "延吉",
+          "list": []
+        },
+        {
+          "canonicalForm": "图们",
+          "list": []
+        },
+        {
+          "canonicalForm": "敦化",
+          "list": []
+        },
+        {
+          "canonicalForm": "珲春",
+          "list": []
+        },
+        {
+          "canonicalForm": "龙井",
+          "list": []
+        },
+        {
+          "canonicalForm": "和龙",
+          "list": []
+        },
+        {
+          "canonicalForm": "阿城",
+          "list": []
+        },
+        {
+          "canonicalForm": "双城",
+          "list": []
+        },
+        {
+          "canonicalForm": "尚志",
+          "list": []
+        },
+        {
+          "canonicalForm": "五常",
+          "list": []
+        },
+        {
+          "canonicalForm": "讷河",
+          "list": []
+        },
+        {
+          "canonicalForm": "虎林",
+          "list": []
+        },
+        {
+          "canonicalForm": "密山",
+          "list": []
+        },
+        {
+          "canonicalForm": "铁力",
+          "list": []
+        },
+        {
+          "canonicalForm": "同江",
+          "list": []
+        },
+        {
+          "canonicalForm": "富锦",
+          "list": []
+        },
+        {
+          "canonicalForm": "绥芬河",
+          "list": []
+        },
+        {
+          "canonicalForm": "海林",
+          "list": []
+        },
+        {
+          "canonicalForm": "宁安",
+          "list": []
+        },
+        {
+          "canonicalForm": "穆棱",
+          "list": []
+        },
+        {
+          "canonicalForm": "北安",
+          "list": []
+        },
+        {
+          "canonicalForm": "五大连池",
+          "list": []
+        },
+        {
+          "canonicalForm": "绥化",
+          "list": []
+        },
+        {
+          "canonicalForm": "安达",
+          "list": []
+        },
+        {
+          "canonicalForm": "肇东",
+          "list": []
+        },
+        {
+          "canonicalForm": "海伦",
+          "list": []
+        },
+        {
+          "canonicalForm": "江阴",
+          "list": []
+        },
+        {
+          "canonicalForm": "宜兴",
+          "list": []
+        },
+        {
+          "canonicalForm": "锡山",
+          "list": []
+        },
+        {
+          "canonicalForm": "新沂",
+          "list": []
+        },
+        {
+          "canonicalForm": "邳州",
+          "list": []
+        },
+        {
+          "canonicalForm": "溧阳",
+          "list": []
+        },
+        {
+          "canonicalForm": "金坛",
+          "list": []
+        },
+        {
+          "canonicalForm": "武进",
+          "list": []
+        },
+        {
+          "canonicalForm": "常熟",
+          "list": []
+        },
+        {
+          "canonicalForm": "张家港",
+          "list": []
+        },
+        {
+          "canonicalForm": "昆山",
+          "list": []
+        },
+        {
+          "canonicalForm": "吴江",
+          "list": []
+        },
+        {
+          "canonicalForm": "太仓",
+          "list": []
+        },
+        {
+          "canonicalForm": "吴县",
+          "list": []
+        },
+        {
+          "canonicalForm": "启东",
+          "list": []
+        },
+        {
+          "canonicalForm": "如皋",
+          "list": []
+        },
+        {
+          "canonicalForm": "通州",
+          "list": []
+        },
+        {
+          "canonicalForm": "海门",
+          "list": []
+        },
+        {
+          "canonicalForm": "淮安",
+          "list": []
+        },
+        {
+          "canonicalForm": "东台",
+          "list": []
+        },
+        {
+          "canonicalForm": "大丰",
+          "list": []
+        },
+        {
+          "canonicalForm": "仪征",
+          "list": []
+        },
+        {
+          "canonicalForm": "高邮",
+          "list": []
+        },
+        {
+          "canonicalForm": "江都",
+          "list": []
+        },
+        {
+          "canonicalForm": "丹阳",
+          "list": []
+        },
+        {
+          "canonicalForm": "扬中",
+          "list": []
+        },
+        {
+          "canonicalForm": "句容",
+          "list": []
+        },
+        {
+          "canonicalForm": "兴化",
+          "list": []
+        },
+        {
+          "canonicalForm": "靖江",
+          "list": []
+        },
+        {
+          "canonicalForm": "泰兴",
+          "list": []
+        },
+        {
+          "canonicalForm": "姜堰",
+          "list": []
+        },
+        {
+          "canonicalForm": "萧山",
+          "list": []
+        },
+        {
+          "canonicalForm": "建德",
+          "list": []
+        },
+        {
+          "canonicalForm": "富阳",
+          "list": []
+        },
+        {
+          "canonicalForm": "余杭",
+          "list": []
+        },
+        {
+          "canonicalForm": "余姚",
+          "list": []
+        },
+        {
+          "canonicalForm": "慈溪",
+          "list": []
+        },
+        {
+          "canonicalForm": "奉化",
+          "list": []
+        },
+        {
+          "canonicalForm": "瑞安",
+          "list": []
+        },
+        {
+          "canonicalForm": "乐清",
+          "list": []
+        },
+        {
+          "canonicalForm": "海宁",
+          "list": []
+        },
+        {
+          "canonicalForm": "平湖",
+          "list": []
+        },
+        {
+          "canonicalForm": "桐乡",
+          "list": []
+        },
+        {
+          "canonicalForm": "诸暨",
+          "list": []
+        },
+        {
+          "canonicalForm": "上虞",
+          "list": []
+        },
+        {
+          "canonicalForm": "嵊州",
+          "list": []
+        },
+        {
+          "canonicalForm": "兰溪",
+          "list": []
+        },
+        {
+          "canonicalForm": "义乌",
+          "list": []
+        },
+        {
+          "canonicalForm": "东阳",
+          "list": []
+        },
+        {
+          "canonicalForm": "永康",
+          "list": []
+        },
+        {
+          "canonicalForm": "江山",
+          "list": []
+        },
+        {
+          "canonicalForm": "温岭",
+          "list": []
+        },
+        {
+          "canonicalForm": "临海",
+          "list": []
+        },
+        {
+          "canonicalForm": "丽水",
+          "list": []
+        },
+        {
+          "canonicalForm": "龙泉",
+          "list": []
+        },
+        {
+          "canonicalForm": "桐城",
+          "list": []
+        },
+        {
+          "canonicalForm": "天长",
+          "list": []
+        },
+        {
+          "canonicalForm": "明光",
+          "list": []
+        },
+        {
+          "canonicalForm": "亳州",
+          "list": []
+        },
+        {
+          "canonicalForm": "界首",
+          "list": []
+        },
+        {
+          "canonicalForm": "宣州",
+          "list": []
+        },
+        {
+          "canonicalForm": "宁国",
+          "list": []
+        },
+        {
+          "canonicalForm": "贵池",
+          "list": []
+        },
+        {
+          "canonicalForm": "福清",
+          "list": []
+        },
+        {
+          "canonicalForm": "长乐",
+          "list": []
+        },
+        {
+          "canonicalForm": "永安",
+          "list": []
+        },
+        {
+          "canonicalForm": "石狮",
+          "list": []
+        },
+        {
+          "canonicalForm": "晋江",
+          "list": []
+        },
+        {
+          "canonicalForm": "南安",
+          "list": []
+        },
+        {
+          "canonicalForm": "龙海",
+          "list": []
+        },
+        {
+          "canonicalForm": "邵武",
+          "list": []
+        },
+        {
+          "canonicalForm": "武夷山",
+          "list": []
+        },
+        {
+          "canonicalForm": "建瓯",
+          "list": []
+        },
+        {
+          "canonicalForm": "建阳",
+          "list": []
+        },
+        {
+          "canonicalForm": "漳平",
+          "list": []
+        },
+        {
+          "canonicalForm": "宁德",
+          "list": []
+        },
+        {
+          "canonicalForm": "福安",
+          "list": []
+        },
+        {
+          "canonicalForm": "福鼎",
+          "list": []
+        },
+        {
+          "canonicalForm": "乐平",
+          "list": []
+        },
+        {
+          "canonicalForm": "瑞昌",
+          "list": []
+        },
+        {
+          "canonicalForm": "贵溪",
+          "list": []
+        },
+        {
+          "canonicalForm": "瑞金",
+          "list": []
+        },
+        {
+          "canonicalForm": "南康",
+          "list": []
+        },
+        {
+          "canonicalForm": "宜春",
+          "list": []
+        },
+        {
+          "canonicalForm": "丰城",
+          "list": []
+        },
+        {
+          "canonicalForm": "樟树",
+          "list": []
+        },
+        {
+          "canonicalForm": "高安",
+          "list": []
+        },
+        {
+          "canonicalForm": "上饶",
+          "list": []
+        },
+        {
+          "canonicalForm": "德兴",
+          "list": []
+        },
+        {
+          "canonicalForm": "吉安",
+          "list": []
+        },
+        {
+          "canonicalForm": "井冈山",
+          "list": []
+        },
+        {
+          "canonicalForm": "临川",
+          "list": []
+        },
+        {
+          "canonicalForm": "章丘",
+          "list": []
+        },
+        {
+          "canonicalForm": "胶州",
+          "list": []
+        },
+        {
+          "canonicalForm": "即墨",
+          "list": []
+        },
+        {
+          "canonicalForm": "平度",
+          "list": []
+        },
+        {
+          "canonicalForm": "胶南",
+          "list": []
+        },
+        {
+          "canonicalForm": "莱西",
+          "list": []
+        },
+        {
+          "canonicalForm": "滕州",
+          "list": []
+        },
+        {
+          "canonicalForm": "龙口",
+          "list": []
+        },
+        {
+          "canonicalForm": "莱阳",
+          "list": []
+        },
+        {
+          "canonicalForm": "莱州",
+          "list": []
+        },
+        {
+          "canonicalForm": "蓬莱",
+          "list": []
+        },
+        {
+          "canonicalForm": "招远",
+          "list": []
+        },
+        {
+          "canonicalForm": "栖霞",
+          "list": []
+        },
+        {
+          "canonicalForm": "海阳",
+          "list": []
+        },
+        {
+          "canonicalForm": "青州",
+          "list": []
+        },
+        {
+          "canonicalForm": "诸城",
+          "list": []
+        },
+        {
+          "canonicalForm": "寿光",
+          "list": []
+        },
+        {
+          "canonicalForm": "安丘",
+          "list": []
+        },
+        {
+          "canonicalForm": "高密",
+          "list": []
+        },
+        {
+          "canonicalForm": "昌邑",
+          "list": []
+        },
+        {
+          "canonicalForm": "曲阜",
+          "list": []
+        },
+        {
+          "canonicalForm": "兖州",
+          "list": []
+        },
+        {
+          "canonicalForm": "邹城",
+          "list": []
+        },
+        {
+          "canonicalForm": "新泰",
+          "list": []
+        },
+        {
+          "canonicalForm": "肥城",
+          "list": []
+        },
+        {
+          "canonicalForm": "文登",
+          "list": []
+        },
+        {
+          "canonicalForm": "荣成",
+          "list": []
+        },
+        {
+          "canonicalForm": "乳山",
+          "list": []
+        },
+        {
+          "canonicalForm": "乐陵",
+          "list": []
+        },
+        {
+          "canonicalForm": "禹城",
+          "list": []
+        },
+        {
+          "canonicalForm": "临清",
+          "list": []
+        },
+        {
+          "canonicalForm": "滨州",
+          "list": []
+        },
+        {
+          "canonicalForm": "菏泽",
+          "list": []
+        },
+        {
+          "canonicalForm": "巩义",
+          "list": []
+        },
+        {
+          "canonicalForm": "荥阳",
+          "list": []
+        },
+        {
+          "canonicalForm": "新密",
+          "list": []
+        },
+        {
+          "canonicalForm": "新郑",
+          "list": []
+        },
+        {
+          "canonicalForm": "登封",
+          "list": []
+        },
+        {
+          "canonicalForm": "偃师",
+          "list": []
+        },
+        {
+          "canonicalForm": "舞钢",
+          "list": []
+        },
+        {
+          "canonicalForm": "汝州",
+          "list": []
+        },
+        {
+          "canonicalForm": "林州",
+          "list": []
+        },
+        {
+          "canonicalForm": "卫辉",
+          "list": []
+        },
+        {
+          "canonicalForm": "辉县",
+          "list": []
+        },
+        {
+          "canonicalForm": "济源",
+          "list": []
+        },
+        {
+          "canonicalForm": "沁阳",
+          "list": []
+        },
+        {
+          "canonicalForm": "孟州",
+          "list": []
+        },
+        {
+          "canonicalForm": "禹州",
+          "list": []
+        },
+        {
+          "canonicalForm": "长葛",
+          "list": []
+        },
+        {
+          "canonicalForm": "义马",
+          "list": []
+        },
+        {
+          "canonicalForm": "灵宝",
+          "list": []
+        },
+        {
+          "canonicalForm": "邓州",
+          "list": []
+        },
+        {
+          "canonicalForm": "永城",
+          "list": []
+        },
+        {
+          "canonicalForm": "周口",
+          "list": []
+        },
+        {
+          "canonicalForm": "项城",
+          "list": []
+        },
+        {
+          "canonicalForm": "驻马店",
+          "list": []
+        },
+        {
+          "canonicalForm": "大冶",
+          "list": []
+        },
+        {
+          "canonicalForm": "丹江口",
+          "list": []
+        },
+        {
+          "canonicalForm": "枝城",
+          "list": []
+        },
+        {
+          "canonicalForm": "当阳",
+          "list": []
+        },
+        {
+          "canonicalForm": "枝江",
+          "list": []
+        },
+        {
+          "canonicalForm": "老河口",
+          "list": []
+        },
+        {
+          "canonicalForm": "枣阳",
+          "list": []
+        },
+        {
+          "canonicalForm": "宜城",
+          "list": []
+        },
+        {
+          "canonicalForm": "钟祥",
+          "list": []
+        },
+        {
+          "canonicalForm": "应城",
+          "list": []
+        },
+        {
+          "canonicalForm": "安陆",
+          "list": []
+        },
+        {
+          "canonicalForm": "广水",
+          "list": []
+        },
+        {
+          "canonicalForm": "汉川",
+          "list": []
+        },
+        {
+          "canonicalForm": "石首",
+          "list": []
+        },
+        {
+          "canonicalForm": "洪湖",
+          "list": []
+        },
+        {
+          "canonicalForm": "松滋",
+          "list": []
+        },
+        {
+          "canonicalForm": "麻城",
+          "list": []
+        },
+        {
+          "canonicalForm": "武穴",
+          "list": []
+        },
+        {
+          "canonicalForm": "恩施",
+          "list": []
+        },
+        {
+          "canonicalForm": "利川",
+          "list": []
+        },
+        {
+          "canonicalForm": "随州",
+          "list": []
+        },
+        {
+          "canonicalForm": "仙桃",
+          "list": []
+        },
+        {
+          "canonicalForm": "潜江",
+          "list": []
+        },
+        {
+          "canonicalForm": "天门",
+          "list": []
+        },
+        {
+          "canonicalForm": "浏阳",
+          "list": []
+        },
+        {
+          "canonicalForm": "醴陵",
+          "list": []
+        },
+        {
+          "canonicalForm": "湘乡",
+          "list": []
+        },
+        {
+          "canonicalForm": "韶山",
+          "list": []
+        },
+        {
+          "canonicalForm": "耒阳",
+          "list": []
+        },
+        {
+          "canonicalForm": "常宁",
+          "list": []
+        },
+        {
+          "canonicalForm": "武冈",
+          "list": []
+        },
+        {
+          "canonicalForm": "汩罗",
+          "list": []
+        },
+        {
+          "canonicalForm": "临湘",
+          "list": []
+        },
+        {
+          "canonicalForm": "津市",
+          "list": []
+        },
+        {
+          "canonicalForm": "沅江",
+          "list": []
+        },
+        {
+          "canonicalForm": "资兴",
+          "list": []
+        },
+        {
+          "canonicalForm": "洪江",
+          "list": []
+        },
+        {
+          "canonicalForm": "冷水江",
+          "list": []
+        },
+        {
+          "canonicalForm": "涟源",
+          "list": []
+        },
+        {
+          "canonicalForm": "吉首",
+          "list": []
+        },
+        {
+          "canonicalForm": "番禺",
+          "list": []
+        },
+        {
+          "canonicalForm": "花都",
+          "list": []
+        },
+        {
+          "canonicalForm": "增城",
+          "list": []
+        },
+        {
+          "canonicalForm": "从化",
+          "list": []
+        },
+        {
+          "canonicalForm": "乐昌",
+          "list": []
+        },
+        {
+          "canonicalForm": "南雄",
+          "list": []
+        },
+        {
+          "canonicalForm": "潮阳",
+          "list": []
+        },
+        {
+          "canonicalForm": "澄海",
+          "list": []
+        },
+        {
+          "canonicalForm": "顺德",
+          "list": []
+        },
+        {
+          "canonicalForm": "南海",
+          "list": []
+        },
+        {
+          "canonicalForm": "三水",
+          "list": []
+        },
+        {
+          "canonicalForm": "高明",
+          "list": []
+        },
+        {
+          "canonicalForm": "台山",
+          "list": []
+        },
+        {
+          "canonicalForm": "新会",
+          "list": []
+        },
+        {
+          "canonicalForm": "开平",
+          "list": []
+        },
+        {
+          "canonicalForm": "鹤山",
+          "list": []
+        },
+        {
+          "canonicalForm": "恩平",
+          "list": []
+        },
+        {
+          "canonicalForm": "廉江",
+          "list": []
+        },
+        {
+          "canonicalForm": "雷州",
+          "list": []
+        },
+        {
+          "canonicalForm": "吴川",
+          "list": []
+        },
+        {
+          "canonicalForm": "高州",
+          "list": []
+        },
+        {
+          "canonicalForm": "化州",
+          "list": []
+        },
+        {
+          "canonicalForm": "信宜",
+          "list": []
+        },
+        {
+          "canonicalForm": "高要",
+          "list": []
+        },
+        {
+          "canonicalForm": "四会",
+          "list": []
+        },
+        {
+          "canonicalForm": "惠阳",
+          "list": []
+        },
+        {
+          "canonicalForm": "兴宁",
+          "list": []
+        },
+        {
+          "canonicalForm": "陆丰",
+          "list": []
+        },
+        {
+          "canonicalForm": "阳春",
+          "list": []
+        },
+        {
+          "canonicalForm": "英德",
+          "list": []
+        },
+        {
+          "canonicalForm": "连州",
+          "list": []
+        },
+        {
+          "canonicalForm": "普宁",
+          "list": []
+        },
+        {
+          "canonicalForm": "罗定",
+          "list": []
+        },
+        {
+          "canonicalForm": "岑溪",
+          "list": []
+        },
+        {
+          "canonicalForm": "东兴",
+          "list": []
+        },
+        {
+          "canonicalForm": "桂平",
+          "list": []
+        },
+        {
+          "canonicalForm": "北流",
+          "list": []
+        },
+        {
+          "canonicalForm": "凭祥",
+          "list": []
+        },
+        {
+          "canonicalForm": "合山",
+          "list": []
+        },
+        {
+          "canonicalForm": "贺州",
+          "list": []
+        },
+        {
+          "canonicalForm": "百色",
+          "list": []
+        },
+        {
+          "canonicalForm": "河池",
+          "list": []
+        },
+        {
+          "canonicalForm": "宜州",
+          "list": []
+        },
+        {
+          "canonicalForm": "通什",
+          "list": []
+        },
+        {
+          "canonicalForm": "琼海",
+          "list": []
+        },
+        {
+          "canonicalForm": "儋州",
+          "list": []
+        },
+        {
+          "canonicalForm": "琼山",
+          "list": []
+        },
+        {
+          "canonicalForm": "文昌",
+          "list": []
+        },
+        {
+          "canonicalForm": "万宁",
+          "list": []
+        },
+        {
+          "canonicalForm": "东方",
+          "list": []
+        },
+        {
+          "canonicalForm": "江津",
+          "list": []
+        },
+        {
+          "canonicalForm": "合川",
+          "list": []
+        },
+        {
+          "canonicalForm": "永川",
+          "list": []
+        },
+        {
+          "canonicalForm": "南川",
+          "list": []
+        },
+        {
+          "canonicalForm": "都江堰",
+          "list": []
+        },
+        {
+          "canonicalForm": "彭州",
+          "list": []
+        },
+        {
+          "canonicalForm": "邛崃",
+          "list": []
+        },
+        {
+          "canonicalForm": "崇州",
+          "list": []
+        },
+        {
+          "canonicalForm": "广汉",
+          "list": []
+        },
+        {
+          "canonicalForm": "什邡",
+          "list": []
+        },
+        {
+          "canonicalForm": "绵竹",
+          "list": []
+        },
+        {
+          "canonicalForm": "江油",
+          "list": []
+        },
+        {
+          "canonicalForm": "峨眉山",
+          "list": []
+        },
+        {
+          "canonicalForm": "阆中",
+          "list": []
+        },
+        {
+          "canonicalForm": "华蓥",
+          "list": []
+        },
+        {
+          "canonicalForm": "万源",
+          "list": []
+        },
+        {
+          "canonicalForm": "雅安",
+          "list": []
+        },
+        {
+          "canonicalForm": "西昌",
+          "list": []
+        },
+        {
+          "canonicalForm": "巴中",
+          "list": []
+        },
+        {
+          "canonicalForm": "资阳",
+          "list": []
+        },
+        {
+          "canonicalForm": "简阳",
+          "list": []
+        },
+        {
+          "canonicalForm": "清镇",
+          "list": []
+        },
+        {
+          "canonicalForm": "赤水",
+          "list": []
+        },
+        {
+          "canonicalForm": "仁怀",
+          "list": []
+        },
+        {
+          "canonicalForm": "铜仁",
+          "list": []
+        },
+        {
+          "canonicalForm": "兴义",
+          "list": []
+        },
+        {
+          "canonicalForm": "毕节",
+          "list": []
+        },
+        {
+          "canonicalForm": "安顺",
+          "list": []
+        },
+        {
+          "canonicalForm": "凯里",
+          "list": []
+        },
+        {
+          "canonicalForm": "都匀",
+          "list": []
+        },
+        {
+          "canonicalForm": "福泉",
+          "list": []
+        },
+        {
+          "canonicalForm": "安宁",
+          "list": []
+        },
+        {
+          "canonicalForm": "宣威",
+          "list": []
+        },
+        {
+          "canonicalForm": "昭通",
+          "list": []
+        },
+        {
+          "canonicalForm": "楚雄",
+          "list": []
+        },
+        {
+          "canonicalForm": "个旧",
+          "list": []
+        },
+        {
+          "canonicalForm": "开远",
+          "list": []
+        },
+        {
+          "canonicalForm": "思茅",
+          "list": []
+        },
+        {
+          "canonicalForm": "景洪",
+          "list": []
+        },
+        {
+          "canonicalForm": "大理",
+          "list": []
+        },
+        {
+          "canonicalForm": "保山",
+          "list": []
+        },
+        {
+          "canonicalForm": "瑞丽",
+          "list": []
+        },
+        {
+          "canonicalForm": "潞西",
+          "list": []
+        },
+        {
+          "canonicalForm": "西藏日喀则",
+          "list": []
+        },
+        {
+          "canonicalForm": "兴平",
+          "list": []
+        },
+        {
+          "canonicalForm": "韩城",
+          "list": []
+        },
+        {
+          "canonicalForm": "华阴",
+          "list": []
+        },
+        {
+          "canonicalForm": "安康",
+          "list": []
+        },
+        {
+          "canonicalForm": "商州",
+          "list": []
+        },
+        {
+          "canonicalForm": "玉门",
+          "list": []
+        },
+        {
+          "canonicalForm": "酒泉",
+          "list": []
+        },
+        {
+          "canonicalForm": "敦煌",
+          "list": []
+        },
+        {
+          "canonicalForm": "张掖",
+          "list": []
+        },
+        {
+          "canonicalForm": "武威",
+          "list": []
+        },
+        {
+          "canonicalForm": "平凉",
+          "list": []
+        },
+        {
+          "canonicalForm": "西峰",
+          "list": []
+        },
+        {
+          "canonicalForm": "临夏",
+          "list": []
+        },
+        {
+          "canonicalForm": "合作",
+          "list": []
+        },
+        {
+          "canonicalForm": "格尔木",
+          "list": []
+        },
+        {
+          "canonicalForm": "德令哈",
+          "list": []
+        },
+        {
+          "canonicalForm": "青铜峡",
+          "list": []
+        },
+        {
+          "canonicalForm": "灵武",
+          "list": []
+        },
+        {
+          "canonicalForm": "吐鲁番",
+          "list": []
+        },
+        {
+          "canonicalForm": "哈密",
+          "list": []
+        },
+        {
+          "canonicalForm": "昌吉",
+          "list": []
+        },
+        {
+          "canonicalForm": "阜康",
+          "list": []
+        },
+        {
+          "canonicalForm": "米泉",
+          "list": []
+        },
+        {
+          "canonicalForm": "博乐",
+          "list": []
+        },
+        {
+          "canonicalForm": "库尔勒",
+          "list": []
+        },
+        {
+          "canonicalForm": "阿克苏",
+          "list": []
+        },
+        {
+          "canonicalForm": "阿图什",
+          "list": []
+        },
+        {
+          "canonicalForm": "喀什",
+          "list": []
+        },
+        {
+          "canonicalForm": "和田",
+          "list": []
+        },
+        {
+          "canonicalForm": "奎屯",
+          "list": []
+        },
+        {
+          "canonicalForm": "伊宁",
+          "list": []
+        },
+        {
+          "canonicalForm": "塔城",
+          "list": []
+        },
+        {
+          "canonicalForm": "乌苏",
+          "list": []
+        },
+        {
+          "canonicalForm": "阿勒泰",
+          "list": []
+        },
+        {
+          "canonicalForm": "香港",
+          "list": []
+        },
+        {
+          "canonicalForm": "澳门",
+          "list": []
+        }
+      ]
+    },
+    {
+      "name": "weatherSubdivision",
+      "subLists": [
+        {
+          "canonicalForm": "雨",
+          "list": [
+            "下雨",
+            "暴风雨",
+            "大雨",
+            "小雨"
+          ]
+        },
+        {
+          "canonicalForm": "雪",
+          "list": [
+            "暴雪",
+            "暴风雪",
+            "下雪"
+          ]
+        },
+        {
+          "canonicalForm": "雷暴",
+          "list": [
+            "雷电"
+          ]
+        },
+        {
+          "canonicalForm": "刮风",
+          "list": [
+            "大风",
+            "台风"
+          ]
+        },
+        {
+          "canonicalForm": "雾",
+          "list": [
+            "霾"
+          ]
+        },
+        {
+          "canonicalForm": "晴",
+          "list": []
+        },
+        {
+          "canonicalForm": "沙尘暴",
+          "list": [
+            "沙尘",
+            "沙暴"
+          ]
+        },
+        {
+          "canonicalForm": "冰雹",
+          "list": [
+            "雹"
+          ]
+        }
+      ]
+    }
+  ],
+  "bing_entities": [
+    "datetimeV2"
+  ],
+  "actions": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "明天下雨吗？",
+      "intent": "Weather.Query",
+      "entities": []
+    },
+    {
+      "text": "天气不错",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "青岛天气",
+      "intent": "Weather.Query",
+      "entities": []
+    },
+    {
+      "text": "我想知道重庆的天气",
+      "intent": "Weather.Query",
+      "entities": []
+    },
+    {
+      "text": "广州天气怎么样？",
+      "intent": "Weather.Query",
+      "entities": []
+    },
+    {
+      "text": "东莞天气如何",
+      "intent": "Weather.Query",
+      "entities": []
+    },
+    {
+      "text": "雨",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "明天会下雨吗？",
+      "intent": "Weather.Query",
+      "entities": []
+    },
+    {
+      "text": "明天有雨",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "东莞天气如何？",
+      "intent": "Weather.Query",
+      "entities": []
+    },
+    {
+      "text": "你还爱我吗？",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "东方幻想乡",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "全军突击！",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "天气济南",
+      "intent": "Weather.Query",
+      "entities": []
+    },
+    {
+      "text": "魔都的天气",
+      "intent": "Weather.Query",
+      "entities": []
+    },
+    {
+      "text": "雨一直下",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "让暴风雨来得更猛烈些吧！",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "明天青岛会刮风吗？",
+      "intent": "Weather.Query",
+      "entities": []
+    },
+    {
+      "text": "青岛明天天气是什么？",
+      "intent": "Weather.Query",
+      "entities": []
+    },
+    {
+      "text": "明天青岛天气是什么？",
+      "intent": "Weather.Query",
+      "entities": []
+    }
+  ]
+}
